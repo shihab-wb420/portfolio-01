@@ -1,0 +1,39 @@
+
+.bannerWrapper{
+  height: 80vh;
+  width: 100%;
+  background: #ECECF5;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bannerTitle{
+  width: 80%;
+}
+.bannerTitle h2{
+  font-size: 2em;
+}
+.bannerTitle p{
+  margin: 1em 0em;
+}
+.bannerImg{
+  display: none;
+}
+.bannerWrapper button{
+  margin-top: 2em;
+  background: #13CC21;
+}
+
+
+
+
+@media(min-width:415px){
+.bannerWrapper{
+  height: 40vh !important;
+}
+.bannerImg{
+  display: block;
+}
+
+}

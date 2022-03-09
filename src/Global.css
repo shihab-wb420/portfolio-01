@@ -1,0 +1,30 @@
+:root{
+  --dark: #282c34;
+  --light: #EBEBFA;
+  --button-bg: black;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+button{
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  /*color: var(--light);*/
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 480;
+}
+
+.App {
+  color: var(--dark);
+ /* background: var(--light);*/
+}
+
+.text-center{
+  text-align: center;
+  
+}

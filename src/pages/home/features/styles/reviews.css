@@ -1,0 +1,49 @@
+.reviewsWrapper{
+ padding: 2em 0em;
+}
+.reviewsWrapper h3{
+  
+}
+.reviewsContainer{
+  width: 100%;
+  padding-top:4em;
+  padding-bottom:2em;
+  background: #3E3F75;
+}
+.reviewBox{
+  width: 12em;
+  height: 15em;
+  margin-top: 0em;
+  background: #fff;
+  border-radius: 7px;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  padding: 0.5em 0.1em;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+.reviewImg{
+  width: 5em;
+  height: 5em;
+  margin: 0px auto;
+}
+.reviewImg img{
+  height: 100%;
+  width: 100%;
+}
+.fiveStar{
+  margin-top: 1em;
+}
+.reviewBox h4{
+  
+}
+.review{
+  
+}
+
+
+
+
+/*---------Responsive Style ---------------*/
+@media (min-width:415px){
+  
+}

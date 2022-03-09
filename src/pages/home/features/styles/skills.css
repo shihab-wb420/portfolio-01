@@ -1,0 +1,14 @@
+.skillsWrapper{
+  background: ;
+  
+}
+
+.skillsContainer{
+  width: 75%;
+  padding: 1em;
+  margin: 0px auto;
+  text-align: left;
+}
+.skillsContainer div{
+  margin-bottom: 0.7em;
+}
