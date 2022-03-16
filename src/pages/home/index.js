@@ -9,10 +9,12 @@ const Home = ()=>{
   return(
       <div  className="homePageWrapper">
          <Banner />
-         <About />
-         <Skills />
-         <ProjectsSection />
-         <Reviews /> 
+         <div className="body-half-width">
+             <About />
+             <Skills />
+             <ProjectsSection />
+             <Reviews /> 
+         </div>
       </div>
     )
 }

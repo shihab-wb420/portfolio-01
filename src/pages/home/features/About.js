@@ -4,6 +4,10 @@ const About = ()=>{
   
   return(
        <div  className="aboutWrapper">
+         <p className="common-green-title">
+           <div> Who i am </div>
+            <hr/> 
+         </p>
          <h3> About me </h3>
          <div className="aboutContainer">
             <div className="aboutImg">
@@ -11,7 +15,7 @@ const About = ()=>{
             </div>
             <div className="aboutMe"> 
                <h4> Md Shihab Uddin </h4>
-               <p> I'm a full-stack developer with a tendency to back-end. I prefer to stay up to date with the whole development process from database structure and server ...</p>
+               <p> I'm a full-stack web developer with a tendency to back-end. I prefer to stay up to date with the whole development process from database structure and server.</p>
             </div>
           </div>
        </div>

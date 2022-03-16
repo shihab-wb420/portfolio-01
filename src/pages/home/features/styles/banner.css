@@ -2,11 +2,12 @@
 .bannerWrapper{
   height: 80vh;
   width: 100%;
-  background: #ECECF5;
+  background: ;
   display: flex; 
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid #3C3A4F;
 }
 .bannerTitle{
   width: 80%;
@@ -17,20 +18,29 @@
 .bannerTitle p{
   margin: 1em 0em;
 }
+.bannerWrapper button{
+  margin-top: 2em;
+  background: #3AFF9F;
+  color: var(--dark);
+  padding: 0.6em 1em;
+  border-radius: 1.4em;
+}
+
 .bannerImg{
   display: none;
 }
-.bannerWrapper button{
-  margin-top: 2em;
-  background: #13CC21;
+.bannerImg img{
+  width: 75%;
+  height: 75%;
 }
-
 
 
 
 @media(min-width:415px){
 .bannerWrapper{
   height: 40vh !important;
+  display: flex;
+  flex-direction: row;
 }
 .bannerImg{
   display: block;

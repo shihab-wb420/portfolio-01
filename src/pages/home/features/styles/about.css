@@ -1,6 +1,8 @@
 
 .aboutWrapper{
   margin: 2em 0em;
+  padding: 1em 0em;
+  
 }
 .aboutWrapper h3{
   
@@ -10,9 +12,14 @@
   padding: 1em;
   background: ;
   flex-direction: column;
+  
 }
 .aboutMe{
   padding-left: 1em;
+}
+.aboutMe h4{
+  font-size: 1.22em;
+  margin-top: 0.5em ;
 }
 .aboutMe p{
   text-align: left;

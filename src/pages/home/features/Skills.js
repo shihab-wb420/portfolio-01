@@ -4,17 +4,36 @@ const Skills = ()=>{
   
   return(
        <div  className="skillsWrapper">
-          <h3> Skills </h3>
+        <p className="common-green-title">
+           <div>  Technologies that i use </div>
+            <hr/> 
+         </p>
+         <h3>  </h3>
          <div className="skillsContainer">
-            <div><strong>Frontend:</strong> Reactjs, Angular, Apollo Client</div>
-            <div><strong>Backend:</strong> ExpressJs, Django, GraphQl</div>
-            <div><strong>Database:</strong> MongoDB, MySql </div>
-            <div><strong>Css Framework: </strong>
-               React-Bootstrap,
-               Material-UI,
-               Tailwind-css, 
-               Semantic-UI 
-            </div>
+              <div className="skillBox">
+                  <ul>
+                     <li> Html5, css3, sass</li>
+                     <li> Javascript, ES6 </li>
+                     <li>React-bootstrap, Material-ui</li>
+                  </ul>
+              </div>
+               <div className="skillBox">
+                  <ul>
+                     <li>Reactjs</li>
+                     <li>Anguler</li>
+                     <li>ExpressJS</li>
+                     <li>MongoDb, MySql </li>
+                  </ul>
+              </div>
+               <div className="skillBox">
+                   <ul>
+                     <li> GraphQl, Apollo Client </li>
+                     <li>Git,Github</li>
+                     <li>Firebase, Heroku, Vercel </li>
+                     <li> Figma </li>
+                  </ul>                   
+              </div>
+              
           </div>
        </div>
     )

@@ -9,6 +9,7 @@
   padding: 0px;
 }
 
+
 button{
   border: none;
   padding: 5px;
@@ -16,15 +17,51 @@ button{
   /*color: var(--light);*/
   color: #fff;
   border-radius: 4px;
-  font-weight: 480;
+  font-weight: 390;
 }
 
 .App {
-  color: var(--dark);
- /* background: var(--light);*/
+  color: var(--light);
+  background: var(--dark);
+  font-weight: 300;
 }
+
 
 .text-center{
   text-align: center;
   
+}
+
+img{
+  object-fit: cover;
+}
+
+/*---++++000000++++++-----*/
+.common-green-title{
+  width: 16em;
+  display: flex;
+  color: #3AFF9F;
+  font-size: 12px;
+  margin: 0px auto;
+  align-items: center;
+  border: ;
+  justify-content: center;
+}
+.common-green-title hr{
+  width: 5em;
+  height: 9px;
+  padding: 1px;
+  margin-left: 4px;
+  background: #1BEFA1;
+}
+/*---++++000000++++++-----*/
+
+
+/*-----Responsive css----*/
+@media(min-width:415px){
+.body-half-width{
+  width: 75vw;
+  margin: 0px auto;
+}
+
 }

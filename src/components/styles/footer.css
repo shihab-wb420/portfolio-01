@@ -1,0 +1,21 @@
+
+.footerWrapper{
+  padding:1em;
+  border-top: 1px solid #3C3A4F;
+}
+
+.iconsWrapper{
+  width: 20em;
+  display: flex;
+  margin-top: 2em !important;
+  margin: 0px auto;
+  align-items: centre ;
+  justify-content: space-around ;
+}
+
+.iconsWrapper div, .iconsWrapper i{
+  color: var(--dark);
+  padding: 0.5em;
+  border-radius: 7px;
+  background: #3AFF9F;
+}

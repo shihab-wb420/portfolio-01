@@ -1,46 +1,40 @@
 import "./styles/projectsSection.css"
-import {Grid } from "@mui/material"
 
 const Projects = ()=>{
   
   const datas =[
     {
-      img:"Project image",
+      img:"thumb.png",
       title:"Youtube Clone",
       p:"About projects...",
     },
      {
-      img:"Project image",
+      img:"thumb.png",
       title:"Spotify Clone",
       p:"About projects..."
     },
     {
-      img:"Project image",
+      img:"thumb.png",
       title:"Facebook Clone",
       p:"About projects..."
     },
     
       {
-      img:"Project image",
+      img:"thumb.png",
       title:"Youtube Clone",
       p:"About projects...",
     },
-     {
-      img:"Project image",
-      title:"Spotify Clone",
-      p:"About projects..."
-    },
-    {
-      img:"Project image",
-      title:"Facebook Clone",
-      p:"About projects..."
-    },
+
     
    ]
    
    
   return(
        <div  className="projectsWrapper">
+         <p className="common-green-title">
+           <div>  My projects </div>
+            <hr/> 
+         </p>
          <h3> Recent Projects </h3>
           <div className="projectsContainer">
             {
@@ -48,9 +42,9 @@ const Projects = ()=>{
                return(
                    <div className="projectBox" key={i}>
                       <div className="projectImg"> 
-                        {data.img}
+                         <img src={`./images/${data.img}`}alt="thumb"/>
                       </div>
-                      <h4> {data.title} </h4>
+                      <h4 className="title"> {data.title} </h4>
                   </div>
                 )
               })
