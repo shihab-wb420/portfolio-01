@@ -21,7 +21,7 @@ const Projects = ()=>{
     
       {
       img:"thumb.png",
-      title:"Youtube Clone",
+      title:"OpenSea Clone",
       p:"About projects...",
     },
 
