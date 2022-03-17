@@ -27,7 +27,7 @@ const Projects = ()=>{
 
     
    ]
-   
+    
    
   return(
        <div  className="projectsWrapper">

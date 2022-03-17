@@ -38,7 +38,7 @@
 
 @media(min-width:415px){
 .bannerWrapper{
-  height: 40vh !important;
+  height: 60vh !important;
   display: flex;
   flex-direction: row;
 }
