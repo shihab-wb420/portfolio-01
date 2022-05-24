@@ -52,7 +52,7 @@
 
 }
 
-@media(min-width:1140px){
+@media(min-width:980px){
 .projectsContainer{
   grid-template-columns: auto auto auto;
 }

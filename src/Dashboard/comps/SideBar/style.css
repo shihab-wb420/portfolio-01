@@ -1,0 +1,92 @@
+
+/*----SideNav Open ICON---------*/
+.menu-icon {
+  position: fixed;
+  display: flex;
+  top: 4px;
+  left: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  padding: 12px;
+  background-color: #DADAE3;
+  color: black;
+}
+
+/*-------------Side_Nav styles start---------------*/
+.sidenav {
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  overflow-y: auto;
+  grid-area: sidenav;
+  background: #343264;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  z-index: 2; /* Needs to sit above the hamburger menu icon */
+  /*background-color: #394263;*/
+  transition: all  0.3s ease-in ;
+  transform: translateX(-245px);
+  
+}
+
+/* The active class is toggled on hamburger and close icon clicks */
+.sidenav.active {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(0);
+}
+/* Only visible on mobile screens */
+.sidenav__close-icon {
+  position: absolute;
+  visibility: visible;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  color: red;
+  font-weight: 500;
+}
+
+  .sidenav__list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 85px;
+  }
+
+  .sidenav__list-item {
+    color: #ddd;
+    text-decoration: none;
+    border-bottom: 1px solid #242345;
+    padding: 20px 20px 20px 40px;
+  }
+.sidenav__list-item:first-child{
+  border-top: 1px solid #242345;
+}
+  .sidenav__list-item:hover {
+    color: #fff;
+    border-right: 1px solid red;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+/*---------------End-----------------*/
+
+
+  /*--------Responsive Styles--------*/
+  /* Non-mobile styles, 750px breakpoint */
+  @media only screen and (min-width: 46.875em) {
+  /* Show the sidenav */
+ .sidenav {
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Fixed position on mobile */
+    transform: translateX(0);
+  }
+
+  .sidenav__close-icon {
+    visibility: hidden;
+  }
+  
+  }

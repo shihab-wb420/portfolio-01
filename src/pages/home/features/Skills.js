@@ -20,17 +20,15 @@ const Skills = ()=>{
                <div className="skillBox">
                   <ul>
                      <li>Reactjs</li>
-                     <li>Anguler</li>
                      <li>ExpressJS</li>
                      <li>MongoDb, MySql </li>
                   </ul>
               </div>
                <div className="skillBox">
                    <ul>
-                     <li> GraphQl, Apollo Client </li>
                      <li>Git,Github</li>
+                     <li> GraphQl, Apollo Client </li>
                      <li>Firebase, Heroku, Vercel </li>
-                     <li> Figma </li>
                   </ul>                   
               </div>
               

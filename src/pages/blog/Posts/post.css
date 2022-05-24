@@ -1,0 +1,25 @@
+
+.postBox{
+  padding: 1em;
+  text-align: left;
+  margin-bottom: 1em;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+.postBox:hover{
+  background: #322E4E;
+}
+.postTitle{
+  color: var(--green);
+  font-weight: 700;
+}
+
+.postBox p{
+  margin-top: 1em;
+}
+
+.category{
+  font-size: 13px;
+  color: var(--green);
+  margin: 0px;
+  text-transform: capitalize;
+}

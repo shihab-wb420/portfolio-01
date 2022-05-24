@@ -1,0 +1,18 @@
+
+.filterWrapper{
+  width: 70%;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-around;
+}
+.filterWrapper div{
+  color: #fff;
+  padding: 0.3em;
+  border-radius: 4px;
+  background: #7E59EF;
+}
+
+.filterWrapper div:hover{
+  color: black;
+  background: #B9BFE6;
+}

@@ -1,0 +1,38 @@
+.postsWrapper{
+  padding-bottom: 1em;
+  margin: 2em 0px auto;
+}
+.postsWrapper h4{
+  text-align: left;
+  margin-left: 1em;
+}
+.postContainer{
+  width: 95%;
+  display: grid ;
+  margin: 1em auto;
+}
+
+
+
+/*-------Responsive-------*/
+@media(min-width:650px){
+.postsWrapper{
+  width: 75vw;
+}
+}
+
+@media(min-width:600px){
+.postContainer{
+  row-gap: 1em ;
+  column-gap: 1em;
+  grid-template-columns: auto auto;
+}
+
+}
+
+@media(min-width:975px){
+.postContainer{
+  grid-template-columns: auto auto auto;
+}
+
+}

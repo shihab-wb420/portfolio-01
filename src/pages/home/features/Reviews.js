@@ -7,25 +7,25 @@ const Reviews = ()=>{
  const datas = [
       {
         img:"./images/ceo.jpg",
-        name:"Md Sohan uddin",
+        name:"Md Sohan ",
         star:"*****",
         review:"This is good website",
       },
       {
         img:"./images/user_icon.png",
-        name:"Md jovan uddin",
+        name:"Md jovan ",
         star:"*****",
         review:"This is nice website",
       },
       {
         img:"./images/ceo.jpg",
-        name:"Md Rohan uddin",
+        name:"Md Rohan ",
         star:"*****",
         review:"This is well website",
       },
       {
         img:"./images/thumb.png",
-        name:"Md Khogen uddin",
+        name:"Md Joy ",
         star:"*****",
         review:"This is too good website",
       },

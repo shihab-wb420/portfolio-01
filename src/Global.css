@@ -2,14 +2,18 @@
   --dark: #282c34;
   --light: #EBEBFA;
   --button-bg: black;
+  --green:#57FA9F;
 }
 
 *{
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
 }
-
-
+a{
+  color: #fff;
+  text-decoration: none;
+}
 button{
   border: none;
   padding: 5px;
@@ -64,4 +68,12 @@ img{
   margin: 0px auto;
 }
 
+}
+
+
+
+
+/**-------dashboard styles--_---*/
+.dashboardWrapper{
+  height: 100vh;
 }
