@@ -1,31 +1,32 @@
 import "./styles/reviews.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Carousel, } from 'react-bootstrap'
+// eslint-disable-next-line
+//import 'bootstrap/dist/css/bootstrap.min.css'
+import { Carousel } from 'react-bootstrap'
 
 const Reviews = ()=>{
   
  const datas = [
       {
-        img:"./images/ceo.jpg",
-        name:"Md Sohan ",
+        img:"./images/vector-avatar/avatar1.png",
+        name:"Jhon Doy",
         star:"*****",
         review:"This is good website",
       },
       {
-        img:"./images/user_icon.png",
-        name:"Md jovan ",
+        img:"./images/vector-avatar/avatar2.png",
+        name:"Jhon Smith",
         star:"*****",
         review:"This is nice website",
       },
       {
-        img:"./images/ceo.jpg",
-        name:"Md Rohan ",
+        img:"./images/vector-avatar/avatar3.png",
+        name:"Jhon Abraham",
         star:"*****",
         review:"This is well website",
       },
       {
-        img:"./images/thumb.png",
-        name:"Md Joy ",
+        img:"./images/vector-avatar/avatar4.png",
+        name:"Jhon DK ",
         star:"*****",
         review:"This is too good website",
       },

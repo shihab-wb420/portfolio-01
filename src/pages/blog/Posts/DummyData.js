@@ -68,6 +68,27 @@ const Datas = [
      date: ` ${day}.${month}.${year}`,
      category:"testing",
    },
+        {
+     id:10,
+     title:"Lorem-ipsum-simply-dummy-text-printing-and-typesetting-industry",
+     description:"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a place.",
+     date: ` ${day}.${month}.${year}`,
+     category:"testing",
+   },
+      {
+     id:11,
+     title:"Lorem-ipsum-simply-dummy-text-printing-and-typesetting-industry",
+     description:"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a place.",
+     date: ` ${day}.${month}.${year}`,
+     category:"testing",
+   },
+      {
+     id:12,
+     title:"Lorem-ipsum-simply-dummy-text-printing-and-typesetting-industry",
+     description:"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a place.",
+     date: ` ${day}.${month}.${year}`,
+     category:"testing",
+   },
  ]
 
 

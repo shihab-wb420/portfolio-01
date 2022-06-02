@@ -6,8 +6,12 @@ import About from "./features/About"
 import Footer from "../../components/Footer"
 import TopBar from "../../components/NavBar"
 
+//import {AdminState} from "../../context/AdminProvider"
+
 const Home = ()=>{
-  
+ //  const {adminInfo} = AdminState()
+   //console.log("hompage",adminInfo) 
+      
   return(
     <>
       <TopBar/>

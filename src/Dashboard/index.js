@@ -2,8 +2,14 @@ import "./dashboard.css"
 //import AddPost from "./display/AddPost"
 import SideNav from "./comps/SideBar"
 import { Outlet } from "react-router-dom"
+import { useNavigate } from "react-router"
+ import {AdminState } from "../context/AdminProvider";
 
 const Dashboard = ()=>{
+ const navigate = useNavigate()
+ const {adminInfo} = AdminState()
+ 
+if(!adminInfo) (navigate("/admin/auth"));
  
   return(
        <div className="dashboardWrapper">

@@ -1,6 +1,6 @@
 .postsWrapper{
   padding-bottom: 1em;
-  margin: 2em 0px auto;
+  margin: 2em auto;
 }
 .postsWrapper h4{
   text-align: left;
@@ -15,22 +15,22 @@
 
 
 /*-------Responsive-------*/
-@media(min-width:650px){
-.postsWrapper{
+@media(min-width:750px){
+ .postsWrapper{
   width: 75vw;
-}
-}
-
-@media(min-width:600px){
+  }
 .postContainer{
-  row-gap: 1em ;
-  column-gap: 1em;
+  grid-gap: 2em ;
   grid-template-columns: auto auto;
 }
 
 }
 
 @media(min-width:975px){
+  .postsWrapper{
+  width: 80vw;
+  }
+  
 .postContainer{
   grid-template-columns: auto auto auto;
 }

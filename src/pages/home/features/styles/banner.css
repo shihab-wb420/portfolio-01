@@ -1,6 +1,6 @@
 
 .bannerWrapper{
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   display: flex; 
   flex-direction: column;
@@ -30,7 +30,7 @@
 
 @media(min-width:415px){
 .bannerWrapper{
-  height: 60vh !important;
+  height: 40vh !important;
   display: flex;
   flex-direction: row;
 }

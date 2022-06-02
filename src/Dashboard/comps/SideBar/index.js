@@ -4,14 +4,20 @@ import { Link } from "react-router-dom"
 const SideNav = ()=>{
    
   //Open SideNav when click the humburger menue
-  let sideNavEl
+  
   const OpenSideNav = ()=>{
-    sideNavEl = document.querySelector(".sidenav")
-    sideNavEl?.classList.add("active")
+  let sideNavEl = document.querySelector(".sidenav")
+    sideNavEl.classList.add("active")
   }
   //Close sideNav when click the closeIcon
   const CloseSideNav = ()=>{
-    sideNavEl?.classList.remove("active")
+    let sideNavEl = document.querySelector(".sidenav")
+    sideNavEl.classList.remove("active")
+  }
+  //Close sideNav when click the closeIcon 
+  const handleLink = ()=>{
+   let sideNavLink = document.querySelector(".sidenav")
+   sideNavLink.classList.remove("active")
   }
   
   return(
@@ -23,9 +29,9 @@ const SideNav = ()=>{
           <div onClick={CloseSideNav} className="sidenav__close-icon"> X </div>
           
           <div className="sidenav__list">
-              <Link className="sidenav__list-item" to="/dashboard"> Dashboard </Link>
-              <Link className="sidenav__list-item" to="add_project"> New Project </Link>
-              <Link className="sidenav__list-item" to="add_post"> New Post </Link>
+              <Link onClick={handleLink} className="sidenav__list-item" to="/admin/dashboard"> Dashboard </Link>
+              <Link onClick={handleLink} className="sidenav__list-item" to="add_project"> New Project </Link>
+              <Link onClick={handleLink} className="sidenav__list-item" to="add_post"> New Post </Link>
           </div>
        </div>
      </> 

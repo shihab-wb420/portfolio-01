@@ -4,28 +4,42 @@ const Projects = ()=>{
   
   const datas =[
     {
-      img:"thumb.png",
+      img:"./images/projects-thumbnail/youtube-clone.jpg",
       title:"Youtube Clone",
       p:"About projects...",
+      status:"Cooming Soon..."
     },
      {
-      img:"thumb.png",
+      img:"./images/projects-thumbnail/spotify-clone.jpg",
       title:"Spotify Clone",
-      p:"About projects..."
+      p:"About projects...",
+      status:"Cooming Soon..."
     },
     {
-      img:"thumb.png",
+      img:"./images/projects-thumbnail/facebook-clone.jpg",
       title:"Facebook Clone",
-      p:"About projects..."
+      p:"About projects...",
+      status:"Cooming Soon..."
     },
     
       {
-      img:"thumb.png",
-      title:"OpenSea Clone",
+      img:"./images/projects-thumbnail/chatting-aap-clone.jpg",
+      title:"Real-time Messageing Web-App",
       p:"About projects...",
+      status:"Cooming Soon..."
     },
-
-    
+      {
+      img:"./images/projects-thumbnail/twitter-clone.jpg",
+      title:"Twitter Clone",
+      p:"About projects...",
+      status:"Cooming Soon..."
+    },
+    {
+      img:"./images/projects-thumbnail/food-delivery-app-clone.jpg",
+      title:"Food delivery web-app",
+      p:"About projects...",
+      status:"Cooming Soon..."
+    },
    ]
     
    
@@ -41,10 +55,15 @@ const Projects = ()=>{
               datas.map((data,i)=>{
                return(
                    <div className="projectBox" key={i}>
-                      <div className="projectImg"> 
-                         <img src={`./images/${data.img}`}alt="thumb"/>
+                      <div className="projectBox__thumbnail"> 
+                         <img src={`.${data.img}`} alt="Thumbnail"/>
                       </div>
-                      <h4 className="title"> {data.title} </h4>
+                      <h4 className="projectBox__title"> 
+                        {data.title} 
+                      </h4>
+                      <div className="projectBox__status"> 
+                        {data.status}
+                      </div>
                   </div>
                 )
               })

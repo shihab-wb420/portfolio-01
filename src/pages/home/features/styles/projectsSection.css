@@ -8,26 +8,31 @@
   padding: 1em;
   background: ;
   display: grid ;
-  column-gap: 1em;
+  grid-gap: 2em;
   grid-template-columns: auto;
 }
-.title{
-  padding: 1em 0em;
-}
+
 .projectBox{
-  margin-top: 1em;
+  border-bottom: 1px solid var(--cyan);
   box-shadow: 0px 5px 15px rgba(0,0,0,0.16);
 }
-.projectImg{
+.projectBox__thumbnail{
   width: 100%;
   height: 16em;
 }
-.projectImg img{
+.projectBox__thumbnail img{
   width: 100%;
   height: 100%;
   opacity: 0.8;
   object-fit: cover;
   border-radius: 7px;
+}
+.projectBox__title{
+  padding-top: 0.7em;
+}
+.projectBox__status{
+  padding-bottom: 0.7em;
+  
 }
 
 /*-------Responsive style----------*/
@@ -36,7 +41,7 @@
   
 }
 .projectBox{
-  margin-top: 0px;
+ 
 }
 
 }
@@ -44,10 +49,6 @@
 @media(min-width:750px){
 .projectsContainer{
   grid-template-columns: auto auto;
-  row-gap: 1em;
-}
-.projectBox{
-  margin-top: 0px;
 }
 
 }
@@ -55,9 +56,6 @@
 @media(min-width:980px){
 .projectsContainer{
   grid-template-columns: auto auto auto;
-}
-.projectBox{
- margin-top: 0px;
 }
 
 }

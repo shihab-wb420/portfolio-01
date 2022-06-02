@@ -1,18 +1,20 @@
-//import {StyledButton } from "../../components/Button"
-import Banner from "./Banner"
+
+import "./styles.css"
 import Posts from "./Posts"
 import TopBar from "../../components/NavBar"
+//import Banner from "./Banner"
 //import Filter from "../../components/Filter"
 
 const Blog = ()=>{
   
   return(
+    <>
+        <TopBar/>
         <div className="blogWrapper">
-          <TopBar/>
-          <Banner />
-          <hr/>
+         {/* <Banner />*/}
           <Posts />
        </div>
+    </>
     )
 }
 

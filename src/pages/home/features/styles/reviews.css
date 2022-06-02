@@ -9,8 +9,10 @@
   width: 100%;
   padding-top:1em;
   padding-bottom:2em;
-  background: #15151D;
+  background: ;
   border-radius: 7px;
+  border-top: 1px solid var(--cyan);
+  border-bottom: 1px solid var(--cyan);
 }
 
 .reviewBox{
@@ -18,16 +20,16 @@
 }
 
 .reviewImg{
-  width: 50%;
-  height: 50%;
+  width: 4em;
+  height: 4em;
   background: ;
   margin: 0px auto;
 }
 .reviewImg img{
   border-radius: 50%;
   margin: 0px auto;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 .fiveStar{
   margin-top: 1em;
