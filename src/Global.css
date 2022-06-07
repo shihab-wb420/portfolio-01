@@ -1,16 +1,29 @@
-:root{
-  --dark: #282c34;
-  --light: #EBEBFA;
-  --button-bg: black;
-  --green:#57FA9F;
-  --cyan:cyan;
-}
+
 
 *{
   margin: 0px;
   padding: 0px;
   text-decoration: none;
 }
+
+.App-parent{
+  color: var(--light);
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.App-child{
+/*  background: #22214E;
+
+  background: #151531;
+ */
+  margin-top: 5em;
+  padding-top: 1em;
+}
+
+
+
 a{
   color: #fff;
   text-decoration: none;
@@ -23,23 +36,12 @@ button{
   color: #fff;
   border-radius: 4px;
   font-weight: 390;
-  background: #5361EB;
+  background: #1A1B47;
 }
 button:hover{
   background: #7A82EA;
 }
 
-.App {
-  color: var(--light);
-  background: var(--dark);
-  font-weight: 300;
-}
-
-
-.text-center{
-  text-align: center;
-  
-}
 
 img{
   object-fit: cover;
@@ -75,10 +77,3 @@ img{
 
 }
 
-
-
-
-/**-------dashboard styles--_---*/
-.dashboardWrapper{
-  height: 100vh;
-}

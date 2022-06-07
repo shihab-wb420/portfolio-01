@@ -5,8 +5,9 @@
   display: flex; 
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border-bottom: 1px solid #3C3A4F;
+  justify-content: space-around;
+  border-bottom: 1px solid #1A1B40;
+  background: ;
 }
 .bannerTitle{
   width: 80%;
@@ -24,16 +25,21 @@
 .bannerImg img{
   width: 75%;
   height: 75%;
+  border-radius: 50%;
 }
 
 
 
-@media(min-width:415px){
+@media(min-width:765px){
 .bannerWrapper{
   height: 40vh !important;
   display: flex;
   flex-direction: row;
 }
+.bannerTitle{
+  width: 45%;
+}
+
 .bannerImg{
   display: block;
 }

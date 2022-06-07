@@ -8,15 +8,18 @@ const TopBar = ()=>{
   <>
   <Navbar fixed="top" 
   collapseOnSelect
-  expand="lg" bg="dark" 
+  expand="lg" 
+  className="navBar"
   variant="dark">
   <Container>
   <Navbar.Brand href="/">
     <img id="logo" src="./images/SR-Logo.png" alt="logo"/> 
   </Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Toggle aria-controls="responsive-navbar-nav"
+     className="toggle-button" 
+    />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
+    <Nav className="me-auto links-wrapper">
        <Link className="link" to="/"> Home</Link>
        <Link className="link" to="/blog"> Blog </Link>
     </Nav>

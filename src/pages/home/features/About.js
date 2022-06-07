@@ -11,7 +11,8 @@ const About = ()=>{
          <h3> About me </h3>
          <div className="aboutContainer">
             <div className="aboutImg">
-              <img src="./images/ceo.jpg" alt="about-pic"/>
+               <img src="./images/vector-avatar/avatar2.png" alt="Banner"/>
+               { /*<img src="./images/ceo.jpg" alt="about-pic"/> */}
             </div>
             <div className="aboutMe"> 
                <h4> Md Shihab Uddin </h4>

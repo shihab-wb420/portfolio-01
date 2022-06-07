@@ -30,16 +30,17 @@ const DownloadCv = ()=>{
                 <br/> UI/UX Designing Skills based in lagos. 
              </p>
              <StyledButton 
-             mg="1.8em 0em 0em 0em"
-             pd="0.6em 1em"
-             br="1.6em" variant="outlined"
-             Click={DownloadCv}
+              mg="1.8em 0em 0em 0em"
+              pd="0.6em 1em"
+              br="1.6em" variant="outlined"
+              Click={DownloadCv}
              > 
               Download CV 
              </StyledButton>
            </div>
            <div className="bannerImg">
-              <img src="./images/ceo.jpg" alt="bbanner"/>
+              <img src="./images/vector-avatar/avatar3.png" alt="Banner"/>
+            {/*  <img src="./images/ceo.jpg" alt="bbanner"/> */}
            </div> 
         </div>
     )

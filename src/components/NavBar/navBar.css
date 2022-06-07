@@ -1,4 +1,19 @@
 
+.navBar{
+  background: var(--dark);
+  border-bottom: 1px solid #17183A;
+}
+.toggle-button{
+}
+.toggle-button:hover{
+  background: #1E1A3F;
+}
+
+.navBar .links-wrapper{
+  border-top: 1px solid #17183A;
+ /* border-bottom: 1px solid cyan;*/
+  margin-top: 1em;
+}
 
 #logo{
   border-radius: 50%;

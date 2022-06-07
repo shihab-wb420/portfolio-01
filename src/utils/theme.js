@@ -1,9 +1,10 @@
 const theme = {
     siteWidth: '1400px',
     color: {
-        primaryMain: '#36E090',
-        secondaryMain: '#282c34',
+        primaryMain: '#17183A',
+        secondaryMain: '#08091E',
         white: '#fff',
+        green:"#36E090",
         black: '#000',
         text: '#242424',
     },
