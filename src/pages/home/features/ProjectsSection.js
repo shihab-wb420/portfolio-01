@@ -1,4 +1,5 @@
 import "./styles/projectsSection.css"
+import {Link } from "react-router-dom"
 
 const Projects = ()=>{
   
@@ -68,6 +69,10 @@ const Projects = ()=>{
                 )
               })
             }
+          </div>
+          
+          <div className="more_projects">
+             <Link to="/projects"> More Projects -> </Link>
           </div>
        </div>
     )

@@ -6,14 +6,14 @@
 }
 .projectsContainer{
   padding: 1em;
-  background: ;
   display: grid ;
   grid-gap: 2em;
   grid-template-columns: auto;
 }
 
 .projectBox{
-  border-bottom: 1px solid var(--cyan);
+  background: #15173D;
+  border-bottom: 1px solid var(--green);
   box-shadow: 0px 5px 15px rgba(0,0,0,0.16);
 }
 .projectBox__thumbnail{
@@ -34,6 +34,20 @@
   padding-bottom: 0.7em;
   
 }
+
+.more_projects{
+  width: 10em;
+  padding: 7px;
+  background: #1C1A49;
+  border-radius: 4em;
+  margin: 0.5em 1em;
+}
+.more_projects a{
+  color: var(--green);
+  font-weight: bold;
+ 
+}
+
 
 /*-------Responsive style----------*/
 @media(min-width:415px){

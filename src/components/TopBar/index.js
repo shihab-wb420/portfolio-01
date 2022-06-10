@@ -1,5 +1,5 @@
 import "./topBar.css"
-import React,{useState } from "react"
+import React,{useState, useRef, useEffect } from "react"
 import {Link } from "react-router-dom"
 
 const TopBar = ()=>{
@@ -17,7 +17,18 @@ const TopBar = ()=>{
     sideBar.classList.remove("active")
     setIsOpen(false)
   }
-  
+  //-----Handle link----
+  const handleLink = ()=>{
+    let sideBar = document.querySelector(".sideBar-wrapper");
+    sideBar.classList.remove("active")
+    setIsOpen(false)
+  }
+  //-----focus nav iten----
+  const linkItem = useRef()
+  useEffect(()=>{
+    linkItem.current.focus()
+  },[])
+
   
   return(
        <div className="topBar-container">
@@ -35,8 +46,24 @@ const TopBar = ()=>{
          </div>
          <div className="sideBar-wrapper">
            <div className="links-wrapper">
-             <Link className="link-item" to="#home"> Home </Link>
-             <Link className="link-item" to="#blog"> Blog </Link>
+             <Link ref={linkItem} 
+              className="link-item" 
+              onClick={handleLink}
+              to="/">
+                Home 
+             </Link>
+             <Link 
+               className="link-item"
+               onClick={handleLink}
+               to="/blog"> 
+                Blog 
+              </Link>
+             <Link 
+              className="link-item"
+              onClick={handleLink}
+              to="/projects"> 
+               Projects 
+             </Link>
            </div>
          </div>
        </div>

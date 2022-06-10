@@ -12,7 +12,7 @@ const DownloadCv = ()=>{
         <div  className="bannerWrapper">
            <div className="bannerTitle">
               <p className="hi_there">
-                  HI THERE 👋 I'M,
+                  Hi I'm,
               </p>
              <h2> 
                Md Shihab Uddin
@@ -21,7 +21,7 @@ const DownloadCv = ()=>{
              style={{
                color:"#3AFF9F", fontSize:"1em", fontWeight:"700"
              }}> 
-                Frontend + Backend Developer 
+               A Fullstack Developer 
                 <br/>
                 👨
              </p>
