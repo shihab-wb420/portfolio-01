@@ -53,17 +53,17 @@ const TopBar = ()=>{
                 Home 
              </Link>
              <Link 
+              className="link-item"
+              onClick={handleLink}
+              to="/projects"> 
+               Projects 
+             </Link>             
+             <Link 
                className="link-item"
                onClick={handleLink}
                to="/blog"> 
                 Blog 
               </Link>
-             <Link 
-              className="link-item"
-              onClick={handleLink}
-              to="/projects"> 
-               Projects 
-             </Link>
            </div>
          </div>
        </div>

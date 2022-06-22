@@ -1,4 +1,4 @@
-
+/*
 .projectsWrapper{
   width: 100%;
   margin: 7em 0em !important;
@@ -13,7 +13,7 @@
 
 .projectBox{
   background: #15173D;
-  border-bottom: 1px solid var(--green);
+  border-bottom: 1px solid #4C3EB8;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.16);
 }
 .projectBox__thumbnail{
@@ -28,7 +28,18 @@
   border-radius: 7px;
 }
 .projectBox__title{
+  margin-left: 11px;
+  text-align: left;
   padding-top: 0.7em;
+}
+
+*/
+
+.projectsContainer{
+  padding: 1em;
+  display: grid ;
+  grid-gap: 2em;
+  grid-template-columns: auto;
 }
 .projectBox__status{
   padding-bottom: 0.7em;
@@ -36,18 +47,20 @@
 }
 
 .more_projects{
-  width: 10em;
-  padding: 7px;
-  background: #1C1A49;
+  width: 9em;
+  padding: 4px;
+  margin: 0.5em 1.6em;
   border-radius: 4em;
-  margin: 0.5em 1em;
+  background: linear-gradient(#538FFB, #5B54FA);
 }
 .more_projects a{
-  color: var(--green);
-  font-weight: bold;
- 
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.8em;
 }
-
+.more_projects a i{
+  margin-left: 2px;
+}
 
 /*-------Responsive style----------*/
 @media(min-width:415px){

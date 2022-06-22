@@ -1,5 +1,5 @@
 import "./footer.css"
-import {StyledButton} from "../Button"
+/*import {StyledButton} from "../Button"*/
 
 const Footer = () =>{
   
@@ -7,15 +7,15 @@ const Footer = () =>{
         <div className="footerWrapper">
            <p className="footer-header"> Contact </p>
            <div className="iconsWrapper">
-             <StyledButton  mg="1.8em 0em 0em 0em"  pd="0.6em 1em"      br="1em" variant="outlined" >  
-                Facebook 
-             </StyledButton>
-              <StyledButton  mg="1.8em 0em 0em 0em"  pd="0.6em 1em"      br="1em" variant="outlined" >  
-                LinkedIn
-             </StyledButton> 
-              <StyledButton  mg="1.8em 0em 0em 0em"  pd="0.6em 1em"      br="1em" variant="outlined" >  
-                Github
-             </StyledButton>            
+             <div className="social-icon fb">
+                <i class="fa-brands fa-facebook"></i>
+             </div> 
+             <div className="social-icon linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+             </div>
+              <div className="social-icon github">
+                <i class="fa-brands fa-github"></i>
+              </div>             
            </div>
            <p className="highlight-wrapper"> 
               Design and Developed by

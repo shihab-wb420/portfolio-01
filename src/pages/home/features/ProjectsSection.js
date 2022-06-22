@@ -1,6 +1,11 @@
 import "./styles/projectsSection.css"
 import {Link } from "react-router-dom"
-
+import { 
+  StyledCardContainer, StyledThumbnailWrapper,
+  StyledProjectTitle, StyledTechnologyTitle,
+  StyledTechnologyWrapper, StyledTechnologyItem, 
+  } from "../../../components/ProjectCard"
+  
 const Projects = ()=>{
   
   const datas =[
@@ -42,7 +47,16 @@ const Projects = ()=>{
       status:"Cooming Soon..."
     },
    ]
-    
+  
+  //--- technology used_---
+  const techStacks = [
+   { tech:"React" },
+    { tech:"Express" },
+   { tech: "MongoDb" },
+    {tech:"Bootstrap" },
+    {tech: "Vercel"},
+];
+
    
   return(
        <div  className="projectsWrapper">
@@ -53,26 +67,41 @@ const Projects = ()=>{
          <h3> Recent Projects </h3>
           <div className="projectsContainer">
             {
-              datas.map((data,i)=>{
+              datas.map((item,i)=>{
                return(
-                   <div className="projectBox" key={i}>
-                      <div className="projectBox__thumbnail"> 
-                         <img src={`.${data.img}`} alt="Thumbnail"/>
-                      </div>
-                      <h4 className="projectBox__title"> 
-                        {data.title} 
-                      </h4>
-                      <div className="projectBox__status"> 
-                        {data.status}
-                      </div>
-                  </div>
+                
+                   <StyledCardContainer>
+                      <StyledThumbnailWrapper>
+                         <img src={`${item.img}`} alt="Thumbnail"/>
+                      </StyledThumbnailWrapper>
+                      <StyledProjectTitle>
+                        {item.title} 
+                      </StyledProjectTitle>
+                      <StyledTechnologyTitle>
+                        Technology Used :
+                      </StyledTechnologyTitle>
+                      <StyledTechnologyWrapper> 
+                        {
+                          techStacks.map((item)=>{
+                            return(
+                               <StyledTechnologyItem> 
+                                  {item.tech}
+                               </StyledTechnologyItem>
+                            )
+                          })
+                        }
+                      </StyledTechnologyWrapper>
+                  </StyledCardContainer>
                 )
               })
             }
           </div>
           
           <div className="more_projects">
-             <Link to="/projects"> More Projects -> </Link>
+             <Link to="/projects">
+              <span> More Projects </span>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+             </Link>
           </div>
        </div>
     )

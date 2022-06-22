@@ -1,6 +1,16 @@
 
 .projects-wrapper{
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
   grid-gap: 1em;
+  margin: 0px auto;
+}
+
+/*-----Responsive css----*/
+@media(min-width:980px){
+.projects-wrapper{
+  width: 80vw;
+}
+
 }

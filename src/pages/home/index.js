@@ -1,8 +1,11 @@
+import React, { Suspense, lazy } from 'react';
 import Banner from "./features/Banner"
-import ProjectsSection from "./features/ProjectsSection"
-import Skills from "./features/Skills"
-import Reviews from "./features/Reviews"
-import About from "./features/About"
+
+const About = lazy(()=> import("./features/About"))
+const Skills = lazy(()=> import("./features/Skills"))
+const ProjectsSection = lazy(()=> import("./features/ProjectsSection"))
+const Reviews = lazy(()=> import("./features/Reviews"))
+
 
 const Home = ()=>{
 
@@ -11,10 +14,12 @@ const Home = ()=>{
       <div  className="homePageWrapper">
          <Banner />
          <div className="body-half-width">
-             <About />
-             <Skills />
-             <ProjectsSection />
-             <Reviews /> 
+            <Suspense fallback={<h2> Loading...</h2>}>
+               <About />
+               <Skills />
+               <ProjectsSection />
+               <Reviews /> 
+            </Suspense>
          </div>
       </div>
     </>

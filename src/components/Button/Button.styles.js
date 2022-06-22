@@ -12,7 +12,7 @@ export const Button = Styled.button`
   border-radius:${props=>props.br ? props.br : "7px"};
   &:hover{
     background:${props => props.variant === "outlined" ? props.theme.color.primaryMain : props.theme.color.secondaryMain };
-   
+  }
 `
 
 export const LinkButton = Styled.a`

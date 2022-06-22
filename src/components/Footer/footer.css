@@ -17,18 +17,27 @@
   justify-content: space-around ;
 }
 
-.iconsWrapper div, .iconsWrapper i{
+.iconsWrapper .social-icon {
+  width: 2.9em;
+  height: 2.9em;
   padding: 0.5em;
-  color: var(--dark);
-  border-radius: 7px;
-  background: #3AFF9F;
+  color: ;
+  border-radius: 50%;
+  border: 1px solid #4C3AE3;
+  background: linear-gradient(#538FFB, #5B54FA);
+/*  background: linear-gradient(#00BC40,#4C3AE3);*/
 }
+
+.iconsWrapper .social-icon i{
+  font-size: 1.8em;
+}
+
 
 .highlight-wrapper{
   margin: 3em;
   font-weight: 340;
 }
 .highlight{
-  font-weight: 370;
-  color: var(--green);
+  font-weight: 470; 
+  color:var(--text-muted);
 }

@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.muted{
+  color:var(--text-muted);
+}
+
 .App-parent{
   color: var(--light);
   font-weight: 300;

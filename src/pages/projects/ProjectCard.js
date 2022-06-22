@@ -1,26 +1,48 @@
-import "./styles/projectCard.css"
-import React from "react"
 
+import React from "react"
+import { 
+  StyledCardContainer, StyledThumbnailWrapper,
+  StyledProjectTitle, StyledTechnologyTitle,
+  StyledTechnologyWrapper, StyledTechnologyItem, 
+
+  } from "../../components/ProjectCard"
 
 const ProjectCard = ({projectItem})=>{
   
+  const techStacks = [
+   { tech:"React" },
+    { tech:"Express" },
+   { tech: "MongoDb" },
+    {tech:"Bootstrap" },
+    {tech: "Vercel"},
+]
+   
   return(
-        <div className="projectCard-container"> 
-            <div className="project_thumbnail">
-              <img src={`${projectItem.img}`} alt="Thumbnail"/>
-            </div>
-            <h2 className="project_title"> {projectItem.title} </h2>
-            <p className="technology_used_title"> Technology Used: </p>
-            <div className="project_technology_wrapper"> 
-              <div className="technology_item"> ReactJS </div>
-              <div className="technology_item"> ReactJS </div>
-              <div className="technology_item"> ReactJS </div>
-              <div className="technology_item"> ReactJS </div>
-            </div>
-          {/*  <div className="project_description">
-              {projectItem.p}
-            </div> */}
-        </div>
+      <StyledCardContainer>
+          <StyledThumbnailWrapper>
+             <img src={`${projectItem.img}`} alt="Thumbnail"/>
+          </StyledThumbnailWrapper>
+          <StyledProjectTitle>
+            {projectItem.title} 
+          </StyledProjectTitle>
+          <StyledTechnologyTitle>
+            Technology Used :
+          </StyledTechnologyTitle>
+          <StyledTechnologyWrapper> 
+            {
+              techStacks.map((item)=>{
+                return(
+                   <StyledTechnologyItem> 
+                      {item.tech}
+                   </StyledTechnologyItem>
+                )
+              })
+            }
+          </StyledTechnologyWrapper>
+         {/* <StyledDescriptionWrapper>
+            {projectItem.p}
+          </StyledDescriptionWrapper>  */}
+      </StyledCardContainer>
     )
 }
 

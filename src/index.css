@@ -3,7 +3,8 @@
  /* --dark: #282c34; */
   --dark:#08091E;
   --light: #EBEBFA;
-  --button-bg: black;
+  --text-muted:#BEBEEF;
+  --black: black;
   --green:#57FA9F;
   --cyan:cyan;
 }
