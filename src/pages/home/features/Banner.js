@@ -5,7 +5,7 @@ const Banner = ()=>{
 
 //---Handle CV Downloading 
 const DownloadCv = ()=>{
-  alert(" CV Coomming Soon....")
+ 
 }
 
   return(
@@ -19,11 +19,9 @@ const DownloadCv = ()=>{
              </h2> 
              <p 
              style={{
-               color:"#3AFF9F", fontSize:"1em", fontWeight:"700"
+               color:"#7A7BE3", fontSize:"1em", fontWeight:"440"
              }}> 
                A Fullstack Developer 
-                <br/>
-                👨
              </p>
              <p> 
                 I’m a professional MERN Stack Developer with 
@@ -35,7 +33,9 @@ const DownloadCv = ()=>{
               br="1.6em" variant="outlined"
               Click={DownloadCv}
              > 
-              Download CV 
+              <a href="https://drive.google.com/file/d/1i58l4JFOGfEBE_gaZqNIVveo6fT1QA3y/view?usp=drivesdk" target="_blank" rel="noreferrer">
+                  Download CV
+              </a>
              </StyledButton>
            </div>
            <div className="bannerImg">

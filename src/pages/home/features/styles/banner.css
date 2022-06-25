@@ -11,12 +11,15 @@
 }
 .bannerTitle{
   width: 80%;
+  color: var(--light);
+  font-weight: 400;
 }
 .bannerTitle h2{
   font-size: 2em;
 }
 .bannerTitle p{
   margin: 1em 0em;
+  font-size: 1.2em;
 }
 
 .bannerImg{

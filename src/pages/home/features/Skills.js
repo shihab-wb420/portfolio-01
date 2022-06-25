@@ -12,8 +12,8 @@ const Skills = ()=>{
          <div className="skillsContainer">
               <div className="skillBox">
                   <ul>
-                     <li> Html5, css3, sass</li>
-                     <li> Javascript, ES6 </li>
+                     <li> HTML5, CSS3, SASS</li>
+                     <li> Javascript/ES6, Typescript</li>
                      <li>React-bootstrap, Material-ui</li>
                   </ul>
               </div>

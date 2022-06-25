@@ -5,6 +5,26 @@
   grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
   grid-gap: 1em;
   margin: 0px auto;
+  color: var(--light);
+}
+
+
+.projectInfo_box{
+  display: flex;
+  margin-top: 1em;
+  padding: 1em 0em;
+  margin-bottom: -1em;
+  border-top: 1px solid #5B61E2;
+  justify-content: space-around;
+  
+}
+.projectInfo_box button {
+  background:#5B61E2;
+  border: 1px solid #5B61E2;
+}
+.projectInfo_box button:hover {
+  background: none;
+  color: #5B61E2;
 }
 
 /*-----Responsive css----*/

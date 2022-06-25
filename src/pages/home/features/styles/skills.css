@@ -1,7 +1,8 @@
 .skillsWrapper{
-  background: ;
+  background: #1C1E3D;
   padding-top: 2em;
   margin: 2em 0em;
+  color: var(--light);
 }
 
 .skillsContainer{
@@ -20,8 +21,13 @@
   margin: 0.7em;
 }
 .skillBox ul{
-  
+  list-style-image: linear-gradient(to left bottom, red, blue);
 }
 .skillBox ul li{
+  font-family: Arial;
+  font-weight: 380;
   margin-bottom: 0.6em;
+  list-style-type: none;
+ /* background-image: url("/public/icons/arrow.png");*/
 }
+

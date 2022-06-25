@@ -15,7 +15,7 @@ const Home = ()=>{
       <div  className="homePageWrapper">
          <Banner />
          <div className="body-half-width">
-               <About />
+            <About />
             <Suspense fallback={<h2> Loading...</h2>}>
                <Skills />
                <ProjectsSection />

@@ -1,7 +1,7 @@
 const theme = {
     siteWidth: '1400px',
     color: {
-        primaryMain: '#17183A',
+        primaryMain: '#5B61E2',
         secondaryMain: '#08091E',
         white: '#fff',
         green:"#36E090",

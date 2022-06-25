@@ -16,7 +16,7 @@ const About = ()=>{
             </div>
             <div className="aboutMe"> 
                <h4> Md Shihab Uddin </h4>
-               <p> I'm a full-stack web developer with a tendency to back-end. I prefer to stay up to date with the whole development process from database structure and server.</p>
+               <p className="about_description"> I'm a full-stack web developer with a tendency to back-end. I prefer to stay up to date with the whole development process from database structure and server.</p>
             </div>
           </div>
        </div>

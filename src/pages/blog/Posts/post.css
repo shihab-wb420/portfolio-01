@@ -4,7 +4,7 @@
   text-align: left;
   margin-bottom: 1em;
  /* border-bottom: 1px solid var(--text-muted);*/
-  background: rgba(0,0,0,0.3);
+  background: #1D1C51;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
 .postBox:hover{

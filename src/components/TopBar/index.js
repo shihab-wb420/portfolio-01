@@ -32,7 +32,7 @@ const TopBar = ()=>{
   
   return(
        <div className="topBar-container">
-         <div className="logoWrapper"> Dev.io </div>
+         <div className="logoWrapper"> Port.io </div>
          <div className="toggle-icons">
           {
          !isOpen ?

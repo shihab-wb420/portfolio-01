@@ -11,7 +11,7 @@
 }
 
 .App-parent{
-  color: var(--light);
+  color: ;
   font-weight: 300;
   text-align: center;
 }
@@ -55,19 +55,20 @@ img{
 .common-green-title{
   width: 16em;
   display: flex;
-  color: #3AFF9F;
-  font-size: 12px;
+  /*color: #3AFF9F;*/
+  color: #9393F6;
+  font-size: 14px;
   margin: 0px auto;
   align-items: center;
-  border: ;
+  font-weight: 390;
   justify-content: center;
 }
 .common-green-title hr{
   width: 5em;
-  height: 9px;
+  height: 4px;
   padding: 1px;
   margin-left: 4px;
-  background: #1BEFA1;
+  background: #9393F6;
 }
 /*---++++000000++++++-----*/
 

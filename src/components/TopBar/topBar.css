@@ -9,11 +9,12 @@
   background: #0F0D28; 
   align-items: center;
   justify-content: space-between;
+  color: var(--light);
 }
 
 .logoWrapper{
   font-weight: 555;
-  color: var(--green);
+  color: #7A7BE3;
   font-size: 2em;
 }
 

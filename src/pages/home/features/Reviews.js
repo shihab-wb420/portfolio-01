@@ -9,25 +9,25 @@ const Reviews = ()=>{
       {
         img:"./images/vector-avatar/avatar1.png",
         name:"Jhon Doy",
-        star:"*****",
+        star:"★★★★★",
         review:"This is good website",
       },
       {
         img:"./images/vector-avatar/avatar2.png",
         name:"Jhon Smith",
-        star:"*****",
+        star:"★★★★★",
         review:"This is nice website",
       },
       {
         img:"./images/vector-avatar/avatar3.png",
         name:"Jhon Abraham",
-        star:"*****",
+        star:"★★★★★",
         review:"This is well website",
       },
       {
         img:"./images/vector-avatar/avatar4.png",
         name:"Jhon DK ",
-        star:"*****",
+        star:"★★★★★",
         review:"This is too good website",
       },
    ]

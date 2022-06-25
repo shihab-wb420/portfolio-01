@@ -8,13 +8,19 @@ const Footer = () =>{
            <p className="footer-header"> Contact </p>
            <div className="iconsWrapper">
              <div className="social-icon fb">
-                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com/profile.php?id=100075848552178" target="_blank" rel="noreferrer">             
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
              </div> 
              <div className="social-icon linkedin">
-                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/md-shihab-uddin-00b750201" target="_blank" rel="noreferrer">                
+                   <i class="fa-brands fa-linkedin"></i>
+                </a>
              </div>
               <div className="social-icon github">
-                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/wb505" target="_blank" rel="noreferrer"> 
+                   <i class="fa-brands fa-github"></i>
+                </a>
               </div>             
            </div>
            <p className="highlight-wrapper"> 

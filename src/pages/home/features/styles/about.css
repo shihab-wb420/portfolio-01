@@ -3,6 +3,7 @@
   margin-top: 6em;
   margin-bottom: 0em;
   padding: 1em 0em;
+  color: var(--light);
 }
 .aboutWrapper h3{
   
@@ -21,9 +22,17 @@
   font-size: 1.22em;
   margin-top: 0.5em ;
 }
-.aboutMe p{
+.about_description{
+  font-size: 1.2em;
   text-align: left;
+  font-family: Arial;
+  font-weight: 370;
 }
+.about_description::selection{
+  color: red;
+  background: #2530a5d2;
+}
+
 .aboutImg{
   margin: 0px auto;
   width: 7em;

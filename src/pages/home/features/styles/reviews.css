@@ -1,6 +1,7 @@
 .reviewsWrapper{
  padding: 2em 0em;
  margin: 2em 0em;
+ color: var(--light);
 }
 .reviewsWrapper h3{
   
@@ -33,7 +34,9 @@
 }
 .fiveStar{
   margin-top: 1em;
+  color:  #3FBDF2;
 }
+
 .caption h3{
   margin-top: -0.7em;
 }
