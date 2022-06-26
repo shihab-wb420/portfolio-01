@@ -6,7 +6,7 @@ export const CardContainer = Styled.div`
   position: relative;
   border-bottom-right-radius: 3em;
   padding-bottom: 15px;
-  border-bottom: 1px solid #4C3EB8;
+  border-bottom: 2px solid #4C3EB8;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
   background: linear-gradient(#10112D,#1D1C51);
   /*background:#272A71;
@@ -36,7 +36,7 @@ export const ProjectTitle = Styled.h2`
 export const TechnologyTitle = Styled.p` 
   margin: 0px;
   font-size: 14px;
-  font-weight: 390;
+  font-weight: 440;
   color: #5B61E2;
 `
 

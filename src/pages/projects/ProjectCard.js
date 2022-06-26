@@ -42,7 +42,6 @@ const ProjectCard = ({projectItem})=>{
           <div className="projectInfo_box">
             <button> Details </button>
             <button> Live Demo </button>
-            <button> Github Code </button>
           </div>
       </StyledCardContainer>
     )

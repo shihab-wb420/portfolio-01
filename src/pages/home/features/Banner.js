@@ -39,7 +39,7 @@ const DownloadCv = ()=>{
              </StyledButton>
            </div>
            <div className="bannerImg">
-              <img src="./images/vector-avatar/avatar3.png" alt="Banner"/>
+              <img src="./images/cat_img.jpg" alt="CEO"/>
             {/*  <img src="./images/ceo.jpg" alt="bbanner"/> */}
            </div> 
         </div>

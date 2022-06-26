@@ -16,7 +16,7 @@
 }
 
 .projectInfo_box{
-  border-top: 1px solid #5B61E2;
+ /* border-top: 1px solid #5B61E2;*/
   margin-bottom: -1em;
   padding: 1em 0em;
   display: flex;

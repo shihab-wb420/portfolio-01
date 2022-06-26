@@ -4,7 +4,7 @@
   z-index: 14;
   width: 100vw;
   display: flex;
-  padding: 0.4em 2em;
+  padding: 0.6em 2em;
   position: fixed;
   background: #0F0D28; 
   align-items: center;
@@ -17,6 +17,12 @@
   color: #7A7BE3;
   font-size: 2em;
 }
+.logoWrapper img{
+  width: ;
+  height: ;
+ /* border: 1px solid cyan;*/
+}
+
 
 .toggle-icons{
   width: 3em;
@@ -63,15 +69,16 @@
 
 
 /*---------- Responsive ------------*/
-@media (min-width:555px){
+@media (min-width:750px){
   
 .topBar-container{
-  height: ;
-  justify-content: space-around;
+  padding: 1.5em 2em;
+  justify-content: space-between;
 }
 
 .logoWrapper{
-  font-size: 2.5em;
+  margin-left: 1em;
+  font-size: 2.4em;
   font-weight: 600;
 }
 
@@ -96,7 +103,7 @@
 
 .sideBar-wrapper .link-item{
   width: 5em;
-  margin: 0px 5px;
+  margin: 0em 1.2em;
   font-weight: 444;
   font-size: 1.6em;
   border-radius: 4em;
