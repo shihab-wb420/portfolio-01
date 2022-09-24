@@ -3,8 +3,12 @@
   padding:1em;
   color: var(--light);
   margin-top: 10em;
+  background: var(--secondary-color);
+  /*
+  background: #6368BC;
   background: #1C1E3D;
-  /*background: #1D1C51;*/
+  background: #1D1C51; 
+  */
 }
 .footer-header{
   font-weight: bold;
@@ -42,5 +46,5 @@
 }
 .highlight{
   font-weight: 470; 
-  color: #7A7BE3;
+  color: #CED4FF;
 }

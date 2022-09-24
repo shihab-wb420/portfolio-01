@@ -1,5 +1,6 @@
 
 .blogWrapper{
-  padding: 3em 0em;
-  color: var(--light);
+  padding: 4em 0em;
+  color: var(--dark);
+  margin-top: 4em;
 }

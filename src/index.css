@@ -1,12 +1,16 @@
 
 :root{
- /* --dark: #282c34; */
+ /* --dark: #282c34; 
   --dark:#08091E;
+ */
+  --dark: #232544;
   --light: #EBEBFA;
-  --text-muted:#BEBEEF;
+  --text-muted:#596382;
   --black: black;
   --green:#57FA9F;
   --cyan:cyan;
+  --purple: #7A16FF;
+  --secondary-color: #4A47EC;
 }
 
 body {
@@ -16,10 +20,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--dark); 
-  color: ;
+  background: var(--light); 
+  color: var(--black) !important;
+  overflow: none;
 }
 
+.activeBody{
+  overflow: hidden;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

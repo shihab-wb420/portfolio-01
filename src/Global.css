@@ -1,9 +1,10 @@
 
 
 *{
-  margin: 0px;
+  margin: 0px ;
   padding: 0px;
   text-decoration: none;
+ 
 }
 
 .muted{
@@ -18,12 +19,7 @@
 
 
 .App-child{
-/*  background: #22214E;
-
-  background: #151531;
- */
-  margin-top: 5em;
-  padding-top: 1em;
+  background: ;
 }
 
 
@@ -35,15 +31,15 @@ a{
 button{
   border: none;
   padding: 5px;
-  font-size: 15px;
+  font-size: 11px;
   /*color: var(--light);*/
   color: #fff;
   border-radius: 4px;
-  font-weight: 390;
-  background: #1A1B47;
+  font-weight: 444;
+  background: var(--secondary-color);
 }
 button:hover{
-  background: #7A82EA;
+  color: cyan;
 }
 
 
@@ -52,23 +48,23 @@ img{
 }
 
 /*---++++000000++++++-----*/
-.common-green-title{
-  width: 16em;
+.common-sub-heading{
+  width: auto;
   display: flex;
   /*color: #3AFF9F;*/
-  color: #9393F6;
+  color: var(--secondary-color);
   font-size: 14px;
   margin: 0px auto;
   align-items: center;
-  font-weight: 390;
+  font-weight: 440;
   justify-content: center;
 }
-.common-green-title hr{
+.common-sub-heading hr{
   width: 5em;
   height: 4px;
   padding: 1px;
   margin-left: 4px;
-  background: #9393F6;
+  background: var(--secondary-color);
 }
 /*---++++000000++++++-----*/
 

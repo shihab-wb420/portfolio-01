@@ -1,18 +1,19 @@
 import "./post.css"
-import {StyledButton} from "../../../components/Button"
+import {Link} from "react-router-dom"
+//import {StyledButton} from "../../../components/Button"
 
 const Post = ({data})=>{
-  const {title,description,category, } = data;
+  const {id,title,description,category, } = data;
   
   return(
-           <div className="postBox">
+           <Link to={`/post/${id}`} className="postBox">
               <div className="postTitle">{title}</div>
-              <p>{description}..</p>
               <p className="category"> {category} </p>
-              <StyledButton  mg="1.8em 0em 0em 0em"  pd="0.6em 1em"      br="1em" variant="outlined" >  
+              <p>{description}..</p>
+             {/* <StyledButton  mg="1.8em 0em 0em 0em"  pd="0.6em 1em"      br="1em" variant="outlined" >  
                 Read More
-              </StyledButton>
-          </div>
+              </StyledButton>*/}
+          </Link>
     )
 }
 

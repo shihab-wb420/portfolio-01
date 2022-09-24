@@ -3,7 +3,7 @@
   margin-top: 6em;
   margin-bottom: 0em;
   padding: 1em 0em;
-  color: var(--light);
+  color: ;
 }
 .aboutWrapper h3{
   
@@ -26,7 +26,8 @@
   font-size: 1.2em;
   text-align: left;
   font-family: Arial;
-  font-weight: 370;
+  font-weight: 400;
+  color: var(--dark);
 }
 .about_description::selection{
   color: red;

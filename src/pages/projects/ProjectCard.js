@@ -1,4 +1,3 @@
-
 import React from "react"
 import { 
   StyledCardContainer, StyledThumbnailWrapper,
@@ -6,6 +5,8 @@ import {
   StyledTechnologyWrapper, StyledTechnologyItem, 
 
   } from "../../components/ProjectCard"
+ import {Link} from "react-router-dom"
+
 
 const ProjectCard = ({projectItem})=>{
   
@@ -39,9 +40,18 @@ const ProjectCard = ({projectItem})=>{
               })
             }
           </StyledTechnologyWrapper>
-          <div className="projectInfo_box">
-            <button> Details </button>
-            <button> Live Demo </button>
+
+          <div className="mt-4">
+            <Link to={`/project/${projectItem.id}`}>
+              <button className="ms-3"> 
+                Details 
+              </button>
+            </Link>
+            <Link to={`#liveDemo`}>
+               <button className="mx-2"> 
+                 Live Demo 
+               </button>
+            </Link>
           </div>
       </StyledCardContainer>
     )

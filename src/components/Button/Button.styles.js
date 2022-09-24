@@ -1,16 +1,16 @@
 import Styled from "styled-components"
 
 export const Button = Styled.button`
-    color: #9393F6;
+    color: var(--secondary-color);
     padding: 7px;
     margin:1em 0em;
     border-radius:7px;
     background: none;
-    border:1px solid #9393F6;
+    border:1px solid var(--secondary-color);
     font-size:1.2em;
     font-weight:400;
       & a{
-       color: #9393F6;
+       color: var(--secondary-color);
       
       &:hover{
       color: #fff;
@@ -18,7 +18,7 @@ export const Button = Styled.button`
    }
  &:hover{
       color: #fff;
-      background: #9393F6;
+      background: var(--secondary-color);
  }
 `
 

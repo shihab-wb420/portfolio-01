@@ -1,5 +1,5 @@
 import "./topBar.css"
-import React,{useState, useRef, useEffect } from "react"
+import React,{useState  } from "react"
 import {Link } from "react-router-dom"
 
 const TopBar = ()=>{
@@ -7,27 +7,25 @@ const TopBar = ()=>{
   
   //---Open sideBar------------
   const OpenSideBar = ()=>{
-    let sideBar = document.querySelector(".sideBar-wrapper");
-    sideBar.classList.add("active")
+   let sideHideWrapper = document.querySelector(".sideBar-wrapper");
+    sideHideWrapper.classList.add("toggleSideWrapper")
     setIsOpen(true)
   }
   //---Close SideBar---------
   const CloseSideBar = ()=>{
-   let sideBar = document.querySelector(".sideBar-wrapper");
-    sideBar.classList.remove("active")
-    setIsOpen(false)
+   let sideHideWrapper = document.querySelector(".sideBar-wrapper");
+   sideHideWrapper.classList.remove("toggleSideWrapper")
+   setIsOpen(false)
   }
-  //-----Handle link----
-  const handleLink = ()=>{
-    let sideBar = document.querySelector(".sideBar-wrapper");
-    sideBar.classList.remove("active")
-    setIsOpen(false)
-  }
-  //-----focus nav iten----
-  const linkItem = useRef()
+  
+
+
+  //-----focus nav item----
+  /*const linkItem = useRef();
   useEffect(()=>{
     linkItem.current.focus()
   },[])
+  */
 
   
   return(
@@ -46,23 +44,24 @@ const TopBar = ()=>{
             </div>)
           }
          </div>
+
          <div className="sideBar-wrapper">
            <div className="links-wrapper">
-             <Link ref={linkItem} 
+             <Link 
               className="link-item" 
-              onClick={handleLink}
+              onClick={CloseSideBar}
               to="/">
                 Home 
              </Link>
              <Link 
               className="link-item"
-              onClick={handleLink}
+              onClick={CloseSideBar}
               to="/projects"> 
                Projects 
              </Link>             
              <Link 
                className="link-item"
-               onClick={handleLink}
+               onClick={CloseSideBar}
                to="/blog"> 
                 Blog 
               </Link>

@@ -1,6 +1,6 @@
 import "./posts.css"
 import Post from "./Post"
-import Datas from "./DummyData"
+import BlogPosts from "../../../utils/BlogPosts"
 import { StyledButton } from "../../../components/Button"
 
 const Posts = ()=>{
@@ -10,7 +10,7 @@ const Posts = ()=>{
          <h4> Recent Posts </h4>
          <div className="postContainer">
           { 
-            Datas.map((data)=>(
+            BlogPosts.map((data)=>(
              <Post data={data} key={data.id}/>
             ))
            }
@@ -18,7 +18,7 @@ const Posts = ()=>{
            <StyledButton
            variant="outlined"
            className="loadMorePost">
-              Load More Post
+             Load More
            </StyledButton>
         </div>
     )

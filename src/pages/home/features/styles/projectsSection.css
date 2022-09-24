@@ -1,11 +1,11 @@
 
 .projectsWrapper{
   margin: 7em 0em;
-  color: var(--light);
+  color: var(--dark);
 }
 
 .projectsContainer{
-  padding: 1em;
+  padding: 0em;
   display: grid ;
   grid-gap: 2em;
   grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
@@ -16,34 +16,37 @@
 }
 
 .projectInfo_box{
- /* border-top: 1px solid #5B61E2;*/
   margin-bottom: -1em;
-  padding: 1em 0em;
+  padding: 0.5em 0em;
   display: flex;
-  justify-content: space-around;
-  
+  width: 50%;
 }
 .projectInfo_box button {
-  background:#5B61E2;
-  border: 1px solid #5B61E2;
+/*  border: 1px solid #5B61E2;
+  color: #5B61E2;*/
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-size: 12px !important;
+  font-weight: 444;
+  background: none;
 }
 .projectInfo_box button:hover {
   background: none;
   color: #5B61E2;
 }
 
+
+
 .more_projects{
-  display: inline-block;
-  width: 9em;
-  padding: 4px;
-  margin: 0.5em 1.6em;
-  border-radius: 4em;
-  background: linear-gradient(#538FFB, #5B54FA);
+  text-align: right;
 }
 .more_projects a{
-  color: #fff;
-  font-weight: 400;
-  font-size: 0.8em;
+  font-weight: 490;
+  font-size: 0.9em;
+  margin-right: 9px;
+  border-radius: 4em;
+  color: var(--secondary-color) !important;
+  /*border: 1px solid var(--secondary-color);*/
 }
 .more_projects a i{
   margin-left: 2px;

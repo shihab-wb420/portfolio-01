@@ -34,7 +34,7 @@ const Reviews = ()=>{
   
   return(
  <div  className="reviewsWrapper">
-     <p className="common-green-title">
+     <p className="common-sub-heading">
         <div> Clients Reviews </div>
         <hr/> 
       </p>

@@ -8,7 +8,7 @@ const Footer = () =>{
            <p className="footer-header"> Contact </p>
            <div className="iconsWrapper">
              <div className="social-icon fb">
-                <a href="https://www.facebook.com/profile.php?id=100075848552178" target="_blank" rel="noreferrer">             
+                <a href="https://www.facebook.com/profile.php?id=100083454394058" target="_blank" rel="noreferrer">             
                     <i class="fa-brands fa-facebook"></i>
                 </a>
              </div> 

@@ -4,61 +4,22 @@ import {
   StyledCardContainer, StyledThumbnailWrapper,
   StyledProjectTitle, 
   } from "../../../components/ProjectCard"
-  
-const Projects = ()=>{
-  
-  const datas =[
-    {
-      img:"./images/projects-thumbnail/youtube-clone.jpg",
-      title:"Youtube Clone",
-      p:"About projects...",
-      status:"Cooming Soon..."
-    },
-     {
-      img:"./images/projects-thumbnail/spotify-clone.jpg",
-      title:"Spotify Clone",
-      p:"About projects...",
-      status:"Cooming Soon..."
-    },
-    {
-      img:"./images/projects-thumbnail/facebook-clone.jpg",
-      title:"Facebook Clone",
-      p:"About projects...",
-      status:"Cooming Soon..."
-    },
-    
-      {
-      img:"./images/projects-thumbnail/chatting-aap-clone.jpg",
-      title:"Real-time Messageing Web-App",
-      p:"About projects...",
-      status:"Cooming Soon..."
-    },
-      {
-      img:"./images/projects-thumbnail/twitter-clone.jpg",
-      title:"Twitter Clone",
-      p:"About projects...",
-      status:"Cooming Soon..."
-    },
-    {
-      img:"./images/projects-thumbnail/food-delivery-app-clone.jpg",
-      title:"Food delivery web-app",
-      p:"About projects...",
-      status:"Cooming Soon..."
-    },
-   ]
-  
+import Datas from "../../../utils/ProjectDatas"
 
+
+const Projects = ()=>{
+ 
    
   return(
        <div  className="projectsWrapper">
-         <p className="common-green-title">
+         <p className="common-sub-heading">
            <div>  My projects </div>
             <hr/> 
          </p>
-         <h3> Recent Projects </h3>
+         <h3> Featured Projects </h3>
           <div className="projectsContainer">
             {
-              datas.map((item,i)=>{
+              Datas.slice(0,4).map((item,i)=>{
                return(
                 
                    <StyledCardContainer>
@@ -68,10 +29,12 @@ const Projects = ()=>{
                       <StyledProjectTitle>
                         {item.title} 
                       </StyledProjectTitle>
-                      <div className="projectInfo_box">
-                        <button> Details </button>
-                        <button> Live Demo </button>
-                      </div>
+                     <div className="mt-4">
+                        <Link to={`/project/${item.id}`}>
+                          <button className="ms-3"> Details </button>
+                        </Link>
+                        <button className="mx-2"> Live Demo </button>
+                     </div>
                   </StyledCardContainer>
                 )
               })

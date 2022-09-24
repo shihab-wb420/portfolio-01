@@ -1,8 +1,8 @@
 .skillsWrapper{
-  background: #1C1E3D;
-  padding-top: 2em;
+  background: ;
+  padding: 2em;
   margin: 2em 0em;
-  color: var(--light);
+  height: auto;
 }
 
 .skillsContainer{
@@ -21,13 +21,29 @@
   margin: 0.7em;
 }
 .skillBox ul{
-  list-style-image: linear-gradient(to left bottom, red, blue);
+  list-style: none;
+  /*list-style-image: linear-gradient(to left bottom, red, blue);*/
 }
 .skillBox ul li{
+  color: var(--secondary-color);
   font-family: Arial;
-  font-weight: 380;
+  font-weight: 440;
   margin-bottom: 0.6em;
   list-style-type: none;
  /* background-image: url("/public/icons/arrow.png");*/
 }
 
+.skills_see-more{
+  margin-top: 1em !important;
+  position: relative;
+  text-align: right;
+}
+.skills_see-more a{
+  font-weight: 480;
+  font-size: 0.9em;
+  padding: 0.3em;
+  border-radius: 7px;
+  color: var(--secondary-color);
+ /* border: 1px solid var(--secondary-color);*/
+}
+  

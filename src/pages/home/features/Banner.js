@@ -1,5 +1,5 @@
 import "./styles/banner.css"
-import {StyledButton } from "../../../components/Button"
+//import {StyledButton } from "../../../components/Button"
 
 const Banner = ()=>{
 
@@ -19,7 +19,7 @@ const DownloadCv = ()=>{
              </h2> 
              <p 
              style={{
-               color:"#7A7BE3", fontSize:"1em", fontWeight:"440"
+               fontSize:"1em", fontWeight:"440"
              }}> 
                A Fullstack Developer 
              </p>
@@ -27,16 +27,14 @@ const DownloadCv = ()=>{
                 I’m a professional MERN Stack Developer with 
                 <br/> UI/UX Designing Skills based in lagos. 
              </p>
-             <StyledButton 
-              mg="1.8em 0em 0em 0em"
-              pd="0.6em 1em"
-              br="1.6em" variant="outlined"
+             <button 
+              className="btn-downloadCv"
               Click={DownloadCv}
              > 
               <a href="https://drive.google.com/file/d/1i58l4JFOGfEBE_gaZqNIVveo6fT1QA3y/view?usp=drivesdk" target="_blank" rel="noreferrer">
-                  Download CV
+                  Download My Resume
               </a>
-             </StyledButton>
+             </button>
            </div>
            <div className="bannerImg">
               <img src="./images/cat_img.jpg" alt="CEO"/>

@@ -4,7 +4,7 @@ const About = ()=>{
   
   return(
        <div  className="aboutWrapper">
-         <p className="common-green-title">
+         <p className="common-sub-heading">
            <div> Who i am </div>
             <hr/> 
          </p>
