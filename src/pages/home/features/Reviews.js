@@ -38,7 +38,7 @@ const Reviews = ()=>{
         <div> Clients Reviews </div>
         <hr/> 
       </p>
-      <h3> Testimonials </h3>
+      <h3 className="review-heading muted"> Testimonials </h3>
    <Carousel className="reviewsContainer">
     {
      datas.map((data,i)=>{
@@ -55,8 +55,8 @@ const Reviews = ()=>{
            </div>
              <div className="caption">
                <p className="fiveStar"> {data.star} </p>
-               <h3>{data.name} </h3>
-               <p>
+               <h3 className="review-name muted">{data.name} </h3>
+               <p className="review-desc muted">
                 {data.review}
                </p>
              </div>

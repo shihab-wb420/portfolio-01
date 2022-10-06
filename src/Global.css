@@ -31,15 +31,15 @@ a{
 button{
   border: none;
   padding: 5px;
-  font-size: 11px;
+  font-size: 12px;
   /*color: var(--light);*/
   color: #fff;
   border-radius: 4px;
-  font-weight: 444;
+  font-weight: 464;
   background: var(--secondary-color);
 }
 button:hover{
-  color: cyan;
+  color: #F7E6EA;
 }
 
 

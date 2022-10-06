@@ -43,23 +43,22 @@ export const TechnologyTitle = Styled.p`
 `
 
 export const TechnologyWrapper = Styled.div` 
-  width: 90%;
-  color: #5B61E2;
-  text-align:;
-  display: grid;
-  gap: 0.1em;
-  margin: 2px auto;
-  grid-template-columns: auto auto;
+  width: 70%;
+  display: flex;
+  flex-wrap:wrap;
+  gap: 0.35em;
+  margin: 2px 1.5em;
+  
 `
 
 export const TechnologyItem = Styled.div` 
-  padding: 4px 3px;
+  padding: 0px 7px;
   margin:2px;
-  border-radius: 4em;
+  border-radius: 9px;
   font-size:12px;
-  font-weight:444;
-  /*border: 1px solid #5B61E2;*/
-  /*background: #1A1942;*/
+  font-weight:450;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 `
 
 export const DescriptionWrapper = Styled.p` 

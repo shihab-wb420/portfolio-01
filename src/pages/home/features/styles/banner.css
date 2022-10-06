@@ -3,12 +3,13 @@
   height: auto;
   padding: 5em 0em;
   width: 100vw !important;
-  color: #fff;
+  color: ;
   display: flex; 
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background: var(--secondary-color);
+  background: ;
+  /*background: var(--secondary-color);*/
 }
 
 .bannerTitle{
@@ -19,6 +20,7 @@
 
 .bannerTitle h2{
   font-size: 2em;
+  color: var(--secondary-color);
 }
 
 .bannerTitle p{
@@ -39,17 +41,29 @@
 
 .btn-downloadCv{
   margin-top: 2em;
-  padding: 0.7em;
+  padding: 0em;
   font-size: 15px;
   font-weight: 600;
   background: none;
-  border: 1px solid #fff;
+  border: 0px solid red;
 }
 
 .btn-downloadCv a{
-  color: #fff !important;
+  background: var(--secondary-color) !important;
+  border: 1px solid var(--secondary-color);
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 0.7em;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.05);
 }
 
+.btn-downloadCv a:hover{
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+}
+
+
+
+/*###### Media query ✅#####*/
 
 @media(min-width:765px){
 .bannerWrapper{

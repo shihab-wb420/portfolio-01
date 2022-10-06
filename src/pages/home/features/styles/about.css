@@ -23,11 +23,11 @@
   margin-top: 0.5em ;
 }
 .about_description{
-  font-size: 1.2em;
+  font-size: 1.09em;
   text-align: left;
   font-family: Arial;
   font-weight: 400;
-  color: var(--dark);
+  color: var(--text-muted);
 }
 .about_description::selection{
   color: red;

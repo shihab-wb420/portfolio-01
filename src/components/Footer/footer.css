@@ -1,11 +1,12 @@
 
 .footerWrapper{
   padding:1em;
-  color: var(--light);
+  color: #fff;
   margin-top: 10em;
-  background: var(--secondary-color);
+  background: #303846;
   /*
   background: #6368BC;
+  background: var(--secondary-color);
   background: #1C1E3D;
   background: #1D1C51; 
   */
@@ -19,7 +20,7 @@
   width: 20em;
   display: flex;
   margin: 0px auto;
-  align-items: centre ;
+  /*align-items: centre ;*/
   margin-top: 2em !important;
   justify-content: space-around ;
 }
@@ -28,6 +29,7 @@
   width: 2.9em;
   height: 2.9em;
   padding: 0.5em;
+  margin: 0px auto;
   color: ;
   border-radius: 50%;
   border: 1px solid #4C3AE3;

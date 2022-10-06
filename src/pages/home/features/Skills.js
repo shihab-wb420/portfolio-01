@@ -11,30 +11,23 @@ const Skills = ()=>{
          </p>
          <h3>  </h3>
          <div className="skillsContainer">
-              <div className="skillBox">
-                  <ul>
-                     <li> HTML5, CSS3, SASS</li>
-                     <li> Javascript/ES6, Typescript</li>
-                     <li>React-bootstrap, Tailwindcss, Material-UI</li>
-                  </ul>
-              </div>
-               <div className="skillBox">
-                  <ul>
-                     <li>Reactjs</li>
-                     <li>ExpressJS</li>
-                     <li>MongoDb, MySql </li>
-                  </ul>
-              </div>
-             {/*  <div className="skillBox">
-                   <ul>
-                     <li>Git,Github</li>
-                     <li> GraphQl, Apollo Client </li>
-                     <li>Firebase, Heroku, Vercel </li>
-                  </ul>                   
-              </div>*/}
-              
-
+             <ul className="skillBox">
+                 <li> HTML5, CSS3, SASS</li>
+                 <li> Javascript/ES6, Typescript</li>
+                 <li>React-bootstrap, Tailwindcss, Material-UI</li>
+              </ul>
+              <ul className="skillBox">
+                 <li>Reactjs</li>
+                 <li>ExpressJS</li>
+                 <li>MongoDb, MySql </li>
+              </ul>
+              <ul className="skillBox">
+                <li>Git,Github</li>
+                <li> GraphQl, Apollo Client </li>
+                <li>Firebase, Heroku, Vercel </li>
+              </ul>
           </div>
+          
           <div className="skills_see-more">
             <Link to="#see-more-skills">
               <span> See more </span>

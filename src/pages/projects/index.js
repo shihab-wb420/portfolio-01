@@ -6,7 +6,7 @@ const Projects = ()=>{
   
   return(
         <div className="projects-container"> 
-            <h2>  Recent Projects </h2>
+            <h2 className="head-title muted">  Recent Projects </h2>
             <ShowProjects />
         </div>
     )

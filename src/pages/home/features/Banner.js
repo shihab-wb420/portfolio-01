@@ -11,20 +11,21 @@ const DownloadCv = ()=>{
   return(
         <div  className="bannerWrapper">
            <div className="bannerTitle">
-              <p className="hi_there">
-                  Hi I'm,
+              <p className="hi_there muted">
+                  Hi i'm,
               </p>
              <h2> 
                Md Shihab Uddin
              </h2> 
              <p 
-             style={{
-               fontSize:"1em", fontWeight:"440"
+              className="muted"
+              style={{
+                fontSize:"1em", fontWeight:"440"
              }}> 
-               A Fullstack Developer 
+               A Fullstack <sup>(MERN)</sup> Developer 
              </p>
-             <p> 
-                I’m a professional MERN Stack Developer with 
+             <p className="muted"> 
+               I’m a professional MERN Stack Developer with 
                 <br/> UI/UX Designing Skills based in lagos. 
              </p>
              <button 

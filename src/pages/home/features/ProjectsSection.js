@@ -16,7 +16,7 @@ const Projects = ()=>{
            <div>  My projects </div>
             <hr/> 
          </p>
-         <h3> Featured Projects </h3>
+         <h3 className="projects-heading muted"> Featured Projects </h3>
           <div className="projectsContainer">
             {
               Datas.slice(0,4).map((item,i)=>{

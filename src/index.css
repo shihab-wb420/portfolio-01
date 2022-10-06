@@ -1,16 +1,13 @@
 
 :root{
- /* --dark: #282c34; 
-  --dark:#08091E;
- */
   --dark: #232544;
-  --light: #EBEBFA;
+  --light: #FFFFFF;
   --text-muted:#596382;
   --black: black;
   --green:#57FA9F;
-  --cyan:cyan;
   --purple: #7A16FF;
-  --secondary-color: #4A47EC;
+  --secondary-color: #21AF90;
+  /*--secondary-color: #4A47EC;*/
 }
 
 body {
@@ -21,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--light); 
-  color: var(--black) !important;
+  color: var(--text-muted) !important;
   overflow: none;
 }
 
