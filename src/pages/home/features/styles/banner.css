@@ -15,7 +15,7 @@
 
 .bannerTitle{
   width: 80%;
-  color: ;
+  color: red;
   font-weight: 400;
 }
 
@@ -74,7 +74,8 @@
   padding-top:40em;
 }
 .bannerTitle{
-  width: 45%;
+  width: 45%; 
+  
 }
 
 .bannerImg{
