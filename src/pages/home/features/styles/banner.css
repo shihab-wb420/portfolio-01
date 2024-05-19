@@ -71,7 +71,8 @@
   height: 40vh !important;
   display: flex;
   flex-direction: row;
-  padding-top:40em;
+  padding-top:40em; 
+  background:black;
 }
 .bannerTitle{
   width: 45%; 
